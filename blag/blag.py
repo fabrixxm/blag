@@ -330,7 +330,8 @@ def process_markdown(
 
         context = dict(
             content=content,
-            permalink=dst
+            permalink=dst,
+            source=src
         )
         context.update(meta)
 
